@@ -51,13 +51,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="register.css">
+
     <title>Web Duck</title>
 </head>
 <body>
+    <div class="avatar">
     <form action="" method="POST">
         <table border="0" align="center" cellpadding="5">
             <tr>
+                
                 <td align="right">Username: </td>
                 <td><input type="text" name="u" required/></td>
             </tr>
@@ -78,6 +81,7 @@
             </tr>
         </table>
     </form>
+    </div>
     <center>
     <?php 
     echo $error;
